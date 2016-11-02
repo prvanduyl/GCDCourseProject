@@ -36,6 +36,7 @@ Several changes are made to the variable names to make them more readable
 
 ##Variable descriptions
 
+Units of measurement
 
 |Variable|Description|
 |------|------|
@@ -107,3 +108,7 @@ Several changes are made to the variable names to make them more readable
 |frequencyBodyBodyGyroscopeMagStd|Mean of fBodyBodyGyroMag-std() calculated per subject and activity|
 |frequencyBodyBodyGyroscopeJerkMagMean|Mean of fBodyBodyGyroJerkMag-mean() calculated per subject and activity|
 |frequencyBodyBodyGyroscopeJerkMagStd|Mean of fBodyBodyGyroJerkMag-std() calculated per subject and activity|
+
+###Units of measurement
+For all accelerometer variables the units are in standard gravity units 'g'.
+For all gyroscope variables the units are radians/second.
